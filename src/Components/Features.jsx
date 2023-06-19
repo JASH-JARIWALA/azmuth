@@ -8,6 +8,7 @@ export default function Features() {
     <div className='container mt-5 mb-5' style={{position:'relative',textAlign:'center'}}  >
     <div className='d-none d-xl-block'  data-aos="fade-up"  style={{paddingTop:'80px'}}>
    <img src={"/images/spider (1).png"} style={{ width: '30%',height:'500px' }}  alt='' />
+   {/*  */}
    
       <div className="p-3 " data-aos="fade-left" style={{width:'40%',border:'1px solid #cfcfcf',position:'absolute',backgroundColor:'whitesmoke' ,top:'-20px',left:'16px',marginTop:'65px',borderRadius:"5px"}}><AccountBalanceIcon style={{ width:'50px',height:'50px',padding:'10px',backgroundColor:'#10265f',color:'white',float:'left',borderRadius:"5px"}}/><p className='mx-auto px-2 pt-2 ' style={{fontWeight:'600',float:"left"}}> AI Powered Coriuer Section</p></div>
       <div className="p-3"  data-aos="fade-left" style={{width:'40%',border:'1px solid #cfcfcf',position:'absolute',backgroundColor:'whitesmoke' ,top:'100px',left:'-20px',marginTop:'65px',borderRadius:"5px"}}><AccountBalanceIcon style={{width:'50px',height:'50px',padding:'10px',backgroundColor:'#10265f',color:'white',float:'left',borderRadius:"5px"}}/><p className='mx-auto px-2 pt-2' style={{fontWeight:'600',float:'left'}}> AI Powered Coriuer Section</p></div>
