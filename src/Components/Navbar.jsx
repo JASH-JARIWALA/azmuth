@@ -6,18 +6,18 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import './Fonts.css'
 export default function Navbar() {
   return (
-    <div style={{  backgroundColor:' #10265f',borderBottom:'2px solid grey',overflow:'hidden'}}>
+    <div style={{  backgroundColor:' #10265f',borderBottom:'1px solid grey',overflow:'hidden'}}>
     <div className="container">
       <div className="row ">
         <div className=" col-6  d-flex justify-content-between" id='logo'>
-              <p className='mt-2 ' ><img src={"./images/Group 12.png"}  style={{ width: '100%', float: 'left' }}  alt='' /></p>
+              <p className='mt-2 ' ><img  src={"./images/azmuthlogo.png"}  style={{ width: '100%',height:'70px', float: 'left' }}   className='w-sm-100'alt='' /></p>
         </div>
-        <div className=" col-6 mt-1  d-flex justify-content-end" >  
+        <div className=" col-6 text-center d-flex justify-content-end" >  
              
-             <InstagramIcon className='mx-1 mt-3'style={{backgroundColor:'white',borderRadius:'50px',width:'30px',height:'30px',padding:'4px',color:'#10265f'}}/>
-             <LinkedInIcon className='mx-1 mt-3'style={{backgroundColor:'white',borderRadius:'50px',width:'30px',height:'30px',padding:'4px',color:'#10265f'}}/>
-             <WhatsAppIcon className='mx-1 mt-3'style={{backgroundColor:'white',borderRadius:'50px',width:'30px',height:'30px',padding:'4px',color:'#10265f'}}/>
-             <FacebookIcon className='mx-1 mt-3'style={{backgroundColor:'white',borderRadius:'50px',width:'30px',height:'30px',padding:'4px',color:'#10265f'}}/>
+             <InstagramIcon className='mx-1 mt-4'style={{backgroundColor:'white',borderRadius:'50px',width:'30px',height:'30px',padding:'4px',color:'#10265f'}}/>
+             <LinkedInIcon className='mx-1 mt-4'style={{backgroundColor:'white',borderRadius:'50px',width:'30px',height:'30px',padding:'4px',color:'#10265f'}}/>
+             <WhatsAppIcon className='mx-1 mt-4'style={{backgroundColor:'white',borderRadius:'50px',width:'30px',height:'30px',padding:'4px',color:'#10265f'}}/>
+             <FacebookIcon className='mx-1 mt-4'style={{backgroundColor:'white',borderRadius:'50px',width:'30px',height:'30px',padding:'4px',color:'#10265f'}}/>
        
              </div>
       </div>

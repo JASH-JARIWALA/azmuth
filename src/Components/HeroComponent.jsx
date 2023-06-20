@@ -1,21 +1,21 @@
 import React from 'react'
 import './Fonts.css'
 import { Button } from "react-bootstrap";
-
+import video from '../videos/azmuthvideo1.mp4'
 export default function HeroComponent() {
   return (
-    <div className='bg' style={{overflowX:'hidden',width:'100%'}}>
-       <div className="container">
-        <div className="row d-flex justify-content-between">
-            <div className="col-12 col-md-5 " data-aos="slide-right">
-             <div className='' style={{fontSize:'90px',color:'white',paddingTop:'70px',fontFamily:'Arbutus Slab'}}>Azmuth
+    <div className='' style={{overflowX:'hidden',width:'100%'}}>
+        <div className="row d-flex justify-content-around ">
+            <div className="col-xl-5 col-md-12 container "  style={{backgroundColor:'#232F50', paddingLeft:'90px'}}>
+             <div  data-aos="slide-right" style={{fontSize:'80px',color:'white',paddingTop:'70px',fontFamily:'Arbutus Slab'}}>Azmuth
              
              <p
+             data-aos="slide-right"
               style={{
                 lineHeight: "43.4px",
                 paddingTop: "10px",
                 fontFamily: "Poppins",
-                fontSize: "24px",
+                fontSize: "20px",
                 fontWeight:300,
                 letterSpacing:'2%',
                 color:'white',
@@ -32,7 +32,7 @@ export default function HeroComponent() {
               variant="light"
               style={{ width: "60%", padding: "15px", border: "none" ,fontFamily:'Poppins'}}
               id="btn"
-              className="mt-2 col-md-12"
+              className="mt-2"
 
             >
               Book a call
@@ -40,11 +40,13 @@ export default function HeroComponent() {
              
              </div>
             </div>
-            <div className="col-12 col-md-5 mb-2 d-md-block d-xl-none order-first" data-aos="fade-down" >
-            <img src={"./images/divimage1.png"} style={{ width: '100%' }}  alt='' />
+            <div className="col-xl-7" style={{backgroundColor:'#232F50'}}>
+            <video autoPlay loop muted style={{width:'100%',height:'650px'}}>
+              <source  src={video} type='video/mp4'/>
+            </video>
             </div>
         </div>
-       </div>
+       
     </div>
   )
 }

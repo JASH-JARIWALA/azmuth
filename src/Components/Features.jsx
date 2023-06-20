@@ -4,7 +4,7 @@ import './Fonts.css'
 import 'animate.css';
 export default function Features() {
   return (
-    <div style={{overflowX:'hidden'}}>
+    <div style={{overflowX:'hidden',overflowY:'hidden'}}>
     <div className='container mt-5 mb-5' style={{position:'relative',textAlign:'center'}}  >
     <div className='d-none d-xl-block'  data-aos="fade-up"  style={{paddingTop:'80px'}}>
    <img src={"./images/Spiderimage.png"} style={{ width: '30%',height:'500px' }}  alt='' />

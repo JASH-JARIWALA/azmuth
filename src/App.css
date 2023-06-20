@@ -7,3 +7,12 @@
 .bimg{
     background-image: url(./images/bgcontact.png);
 }
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+    .bg{
+  background-image: none;
+  background-color: #10265f;
+}
+
+}

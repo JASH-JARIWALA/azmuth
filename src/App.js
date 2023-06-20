@@ -13,7 +13,6 @@ function App() {
    <>
    <Navbar/>
    <HeroComponent/>
-   <TextComponent/>
    <ConatactUs/>
    <Features/>
    <StoryBehind/>
