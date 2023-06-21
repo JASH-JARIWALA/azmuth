@@ -15,6 +15,7 @@ function App() {
    <HeroComponent/>
    <ConatactUs/>
    <Features/>
+   {/* test */}
    <StoryBehind/>
    <Footer/>
    </>
