@@ -116,7 +116,6 @@ export default function ConatactUs() {
               style={{
                 fontFamily: "Poppins",
                 fontSize: "60px",
-                color: "white",
                 lineHeight: "90px",
                 fontWeight:700,
                 color:'#10265f'

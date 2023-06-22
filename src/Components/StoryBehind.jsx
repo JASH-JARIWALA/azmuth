@@ -11,7 +11,14 @@ export default function StoryBehind() {
             <div className='col-xl-6 col-md-12 col-sm-5 ps-sm-5' 
      style={{display:'fllex', alignSelf:'center',padding:'10px'}} data-aos="fade-left">
         <strong style={{fontFamily:'Poppins',fontWeight:700,fontSize:'82px',lineHeight:'90px',color:'#10265f' }} className='mt-5 mb-5'>Our Vision</strong>
-        <p style={{fontFamily:'Poppins',fontWeight:'300',fontSize:'26px',lineHeight:'43.4px',letterSpacing:'2%',verticalAlign:'top',alignContent:'left'}} className='my-4'>“At its core, Azmuth stands for innovation. Azmuth came to life to create a world where complexities of shipping and delivery are transformed into effortless and delightful experiences. We strive to bring convenience and create unparalleled value for our customers.”</p>
+        <p style={{
+                fontFamily: "Poppins",
+                fontSize: "20px",
+                fontWeight: 300,
+                letterSpacing: "2%",
+                verticalAlign: "top",
+                fontStyle: "regular",
+                color:'black'}} className='my-4 '>“At its core, Azmuth stands for innovation. Azmuth came to life to create a world where complexities of shipping and delivery are transformed into effortless and delightful experiences. We strive to bring convenience and create unparalleled value for our customers.”</p>
         
         </div>
           

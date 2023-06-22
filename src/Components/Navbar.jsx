@@ -6,11 +6,11 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import './Fonts.css'
 export default function Navbar() {
   return (
-    <div style={{  backgroundColor:' #10265f',borderBottom:'1px solid grey',overflow:'hidden'}}>
+    <div style={{  backgroundColor:' #232F50',borderBottom:'0.2px solid #3F5685',overflow:'hidden'}}>
     <div className="container">
       <div className="row ">
         <div className=" col-6  d-flex justify-content-between" id='logo'>
-              <p className='mt-2 ' ><img  src={"./images/azmuthlogo.png"}  style={{ width: '100%',height:'70px', float: 'left' }}   className='w-sm-100'alt='' /></p>
+              <p className='' ><img  src={"./images/azmuthlogo.png"}  style={{ width: '100%',height:'70px', float: 'left' }}   className='w-sm-100'alt='' /></p>
         </div>
         <div className=" col-6 text-center d-flex justify-content-end" >  
              
