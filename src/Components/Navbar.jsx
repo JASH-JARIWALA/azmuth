@@ -14,10 +14,10 @@ export default function Navbar() {
         </div>
         <div className=" col-6 text-center d-flex justify-content-end" >  
              
-             {/* <InstagramIcon className='mx-1 mt-4'style={{backgroundColor:'white',borderRadius:'50px',width:'30px',height:'30px',padding:'4px',color:'#10265f'}}/>
-             <LinkedInIcon className='mx-1 mt-4'style={{backgroundColor:'white',borderRadius:'50px',width:'30px',height:'30px',padding:'4px',color:'#10265f'}}/>
-             <WhatsAppIcon className='mx-1 mt-4'style={{backgroundColor:'white',borderRadius:'50px',width:'30px',height:'30px',padding:'4px',color:'#10265f'}}/>
-             <FacebookIcon className='mx-1 mt-4'style={{backgroundColor:'white',borderRadius:'50px',width:'30px',height:'30px',padding:'4px',color:'#10265f'}}/> */}
+             <img  src={"./images/Facebook.png"} className='mx-1 mt-4'style={{backgroundColor:'white',borderRadius:'50px',width:'30px',height:'30px',padding:'2px',color:'#10265f'}}/>
+             <img  src={"./images/Instagram.png"}  className='mx-1 mt-4'style={{backgroundColor:'white',borderRadius:'50px',width:'30px',height:'30px',padding:'1px',color:'#10265f'}}/>
+             <img  src={"./images/WhatsApp.png"} n className='mx-1 mt-4'style={{backgroundColor:'white',borderRadius:'50px',width:'30px',height:'30px',padding:'1px',color:'#10265f'}}/>
+             <img  src={"./images/linkedin.png"} className='mx-1 mt-4'style={{backgroundColor:'white',borderRadius:'50px',width:'30px',height:'30px',padding:'3px',color:'#10265f'}}/>
        
              </div>
       </div>

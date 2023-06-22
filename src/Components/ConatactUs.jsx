@@ -45,7 +45,7 @@ export default function ConatactUs() {
               <div className=''>
                 <div className="p-3" style={{ border: '1px solid #cfcfcf', borderRadius: '10px', width: '100%', height: '350px', backgroundColor: '#10265f' }}>
                   <div className="col-12">
-                    {/* <JoinInnerOutlinedIcon style={{ width: '50px', height: '50px', borderRadius: '9px', float: 'left', color: '10265f', backgroundColor: 'white' }} alt='' className="p-2" /> */}
+                    <img  src={"./images/docket2.png"}  style={{ width: '50px', height: '50px', borderRadius: '9px', float: 'left', color: '10265f', backgroundColor: 'white' }} alt='' className="p-2" />
 
                   </div>
 
@@ -70,7 +70,7 @@ export default function ConatactUs() {
               <div className=''>
                 <div className="p-3" style={{ border: '1px solid #cfcfcf', borderRadius: '10px', width: '100%', height: '350px', backgroundColor: '#10265f' }}>
                   <div className="col-12">
-                    {/* <JoinInnerOutlinedIcon style={{ width: '50px', height: '50px', borderRadius: '9px', float: 'left', color: '10265f', backgroundColor: 'white' }} alt='' className="p-2" /> */}
+                    <img  src={"./images/docket2.png"}  style={{ width: '50px', height: '50px', borderRadius: '9px', float: 'left', color: '10265f', backgroundColor: 'white' }} alt='' className="p-2" />
 
                   </div>
                   <div className="col-12" style={{ float: 'left' }}>
@@ -86,7 +86,7 @@ export default function ConatactUs() {
                 <div>
                   <div className="p-3" style={{ border: '1px solid #cfcfcf', borderRadius: '10px', width: '100%', height: '350px', backgroundColor: '#10265f' }}>
                     <div className="col-12">
-                      {/* <JoinInnerOutlinedIcon style={{ width: '50px', height: '50px', borderRadius: '9px', float: 'left', backgroundColor: 'white', color: '#10265f' }} alt='' className="p-2" /> */}
+                      <img  src={"./images/docket2.png"}  style={{ width: '50px', height: '50px', borderRadius: '9px', float: 'left', backgroundColor: 'white', color: '#10265f' }} alt='' className="p-2" />
 
                     </div>
                     <div className="col-12" style={{ float: 'left' }}>
@@ -102,7 +102,7 @@ export default function ConatactUs() {
             <div className="row">
               {/* <div className="col-6 "> <ArrowBackIcon className="mt-1" style={{ float: 'left', fontSize: '40px' }} onClick={() => sliderRef.current.slickPrev()} /></div> */}
               <div className="col-6">
-                {/* <ArrowForwardIcon className="mt-2" style={{float:'right',fontSize:'40px'}} onClick={()=> sliderRef.current.slickNext()}/> */}
+                <img  src={"./images/arrowleft.png"}  className="mt-2" style={{float:'right',fontSize:'40px'}} onClick={()=> sliderRef.current.slickNext()}/>
 
               </div>
 
