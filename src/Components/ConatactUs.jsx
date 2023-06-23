@@ -6,11 +6,12 @@ import Row from "react-bootstrap/Row";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
-// import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
-// import ArrowBackIcon from '@mui/icons-material/ArrowBack';
-// import JoinInnerOutlinedIcon from '@mui/icons-material/JoinInnerOutlined';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import './Fonts.css'
 import 'animate.css';
+import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
+
+import { faArrowLeft} from '@fortawesome/free-solid-svg-icons';
 export default function ConatactUs() {
   var settings = {
     autoplay: true,
@@ -45,64 +46,76 @@ export default function ConatactUs() {
               <div className=''>
                 <div className="p-3" style={{ border: '1px solid #cfcfcf', borderRadius: '10px', width: '100%', height: '350px', backgroundColor: '#10265f' }}>
                   <div className="col-12">
-                    <img  src={"./images/docket2.png"}  style={{ width: '50px', height: '50px', borderRadius: '9px', float: 'left', color: '10265f', backgroundColor: 'white' }} alt='' className="p-2" />
+                    <img  src={"./images/docketlogo.svg"}  style={{ width: '50px', height: '50px', borderRadius: '9px', float: 'left', color: '10265f', backgroundColor: 'white' }} alt='' className="p-2" />
 
                   </div>
 
-                  <div className="col-12" style={{ float: 'left' }}>
-                    <div style={{ float: 'left' }}>
-                      <spam className='' style={{ fontFamily: 'Poppins', fontSize: '30px', lineHeight: '90px', color: 'white' }}>Doket - B2B</spam>
-                      <p className='' style={{ fontFamily: 'Poppins', fontSize: '16px', lineHeight: '33px', fontWeight: 300, letterSpacing: '2%', color: 'white' }}>Your very own transport management system, a digital solution to everyday logistic operations.</p>
-                      <span className='mb-3 mt-3' style={{ color: 'white', lineHeight: '25.7px', fontSize: '15px' }}><div class="row" style={{ display: 'flex' }}>
+                  
+                
+                      <p className='mx-5' style={{ fontFamily: 'Poppins', fontSize: '30px', lineHeight: '50px', color: 'white',paddingLeft:'20px'}}>Doket</p>
+                      <p className='mb-4' style={{ fontFamily: 'Poppins', fontSize: '16px', fontWeight: 300, letterSpacing: '2%', color: 'white' }}>Your very own transport management system, a digital solution to everyday logistic operations. Introducing Doket, designed to help businesses run operations smoothly. Doket ensures timely and reliable deliveries to customers, enabling you to meet customer demands while focusing on your core business goals like optimizing the delivery cost and improving profits.</p>
+                      <span className='mb-3' style={{ color: 'white', lineHeight: '25.7px', fontSize: '14px' }}>
+                        <div class="row" >
                         <div class="col-6">
                           <li>First Mile</li>
                           <li>Mid Mile</li>
-                          <li>Last Mile</li>
+                          <li>RTO & RSVP</li>
                         </div> <div class="col-6">
                           <li>Hyperlocal</li>
-                          <li>RTO</li>
-                          <li>RVP</li>
+                          <li>AI based Route Optimization</li>
+                          <li>last Mile</li>
                         </div></div></span>
-                    </div>
-                  </div>
+                    
+                  
                 </div>
               </div>
               <div className=''>
                 <div className="p-3" style={{ border: '1px solid #cfcfcf', borderRadius: '10px', width: '100%', height: '350px', backgroundColor: '#10265f' }}>
                   <div className="col-12">
-                    <img  src={"./images/docket2.png"}  style={{ width: '50px', height: '50px', borderRadius: '9px', float: 'left', color: '10265f', backgroundColor: 'white' }} alt='' className="p-2" />
+                    <img  src={"./images/umberlogo.svg"}  style={{ width: '50px', height: '50px', borderRadius: '9px', float: 'left', color: '10265f', backgroundColor: 'white' }} alt='' className="p-2" />
 
                   </div>
-                  <div className="col-12" style={{ float: 'left' }}>
-                    <p className='pt-3' style={{ fontFamily: 'Poppins', fontSize: '30px', lineHeight: '200%', color: 'white' }}>Doket - B2B</p>
-                  </div>
-                  <div className="col-12" style={{ float: 'left', color: 'white' }}>
-                    <li style={{ fontFamily: 'Poppins', fontWeight: 400, fontSize: '20px', lineHeight: '33px', letterSpacing: '2%' }}>Courier Aggregator</li>
-                    <li style={{ fontFamily: 'Poppins', fontWeight: 400, fontSize: '20px', lineHeight: '33px', letterSpacing: '2%' }}>Smart Courier Selection</li>
-                  </div>
+
+                  
+                
+                      <p className='mx-5' style={{ fontFamily: 'Poppins', fontSize: '30px', lineHeight: '50px', color: 'white',paddingLeft:'20px'}}>Umber</p>
+                      <p className='mb-4' style={{ fontFamily: 'Poppins', fontSize: '16px', fontWeight: 300, letterSpacing: '2%', color: 'white' }}>With advanced tracking technology and an extensive network of courier service  providers all under one umbrella, Umber ensures efficient and secure transportation reaching the corners of the country. With our easy to use dashboard and a hassle-free booking process, send anything anywhere seamlessly.</p>
+                      <span className='mb-3 ' style={{ color: 'white', lineHeight: '25.7px', fontSize: '14px' }}>
+                        <div class="row" >
+                        <div class="col-6">
+                          <li>3PL Partners</li>
+                          <li>Smart Courier</li>
+                          <li>Advanced Tracking</li>
+                        </div> <div class="col-6">
+                          <li>Smart Courier Selection</li>
+                          <li>Order History / Bulk Bookings</li>
+                          <li>Precise Cost Estimations</li>
+                        </div></div></span>
+                    
+                  
                 </div>
               </div>
-              <div>
-                <div>
-                  <div className="p-3" style={{ border: '1px solid #cfcfcf', borderRadius: '10px', width: '100%', height: '350px', backgroundColor: '#10265f' }}>
-                    <div className="col-12">
-                      <img  src={"./images/docket2.png"}  style={{ width: '50px', height: '50px', borderRadius: '9px', float: 'left', backgroundColor: 'white', color: '#10265f' }} alt='' className="p-2" />
+              <div className=''>
+                <div className="p-3" style={{ border: '1px solid #cfcfcf', borderRadius: '10px', width: '100%', height: '350px', backgroundColor: '#10265f' }}>
+                  <div className="col-12">
+                    <img  src={"./images/comesoonlogo.svg"}  style={{ width: '50px', height: '50px', borderRadius: '9px', float: 'left', color: '10265f', backgroundColor: 'white' }} alt='' className="p-2" />
 
-                    </div>
-                    <div className="col-12" style={{ float: 'left' }}>
-                      <p className='pt-3' style={{ fontFamily: 'Poppins', fontSize: '30px', lineHeight: '200%', color: 'white' }}>Coming Soon - WMS</p>
-                    </div>
-                    <div className="col-12" style={{ float: 'left' }}>
-                      <p style={{ fontFamily: 'Poppins', fontSize: '20px', lineHeight: '200%', color: 'white' }}>Wait around and we would soon be with you</p>
-                    </div>
                   </div>
+
+                  
+                
+                      <p className='mx-5' style={{ fontFamily: 'Poppins', fontSize: '30px', lineHeight: '50px', color: 'white',paddingLeft:'20px'}}>Coming Soon  - WMS</p>
+                      <p className='' style={{ fontFamily: 'Poppins', fontSize: '20px', lineHeight:'27.2px',fontWeight: 300, letterSpacing: '2%', color: 'white' }}>Wait around and we would soon be with you.</p>
+                    
+                    
+                  
                 </div>
               </div>
             </Slider>
             <div className="row">
-              {/* <div className="col-6 "> <ArrowBackIcon className="mt-1" style={{ float: 'left', fontSize: '40px' }} onClick={() => sliderRef.current.slickPrev()} /></div> */}
+              <div className="col-6 "> <FontAwesomeIcon icon={faArrowLeft} className="mt-1 " style={{ float: 'left', fontSize: '40px',color:'#10265f' }} onClick={() => sliderRef.current.slickPrev()} /></div>
               <div className="col-6">
-                <img  src={"./images/arrowleft.png"}  className="mt-2" style={{float:'right',fontSize:'40px'}} onClick={()=> sliderRef.current.slickNext()}/>
+                <FontAwesomeIcon icon={ faArrowRight} className="mt-2" style={{float:'right',fontSize:'40px',color:'#10265f'}} onClick={()=> sliderRef.current.slickNext()}/>
 
               </div>
 
