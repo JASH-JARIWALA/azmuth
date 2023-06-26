@@ -3,84 +3,132 @@ import "./Fonts.css";
 import { Button } from "react-bootstrap";
 import video from "../videos/azmuthvideo1.mp4";
 export default function HeroComponent() {
-  return (
-    <div className="" style={{ overflowX: "hidden", width: "100%" }}>
-      <div
-        className="row d-flex justify-content-around"
-        style={{ position: "relative", minHeight: "650px" }}
-      >
-        <div
-          className="video"
-          style={{
-            backgroundColor: "#232F50",
-            position: "absolute",
-            right: "0px",
-          }}
-        >
-          <video
-            autoPlay
-            loop
-            muted
-            style={{ height: "650px", position: "absolute", right: "0px" }}
-          >
+  return (<>
+    <div style={{ overflowX: "hidden" }} className="d-none">
+      <div className="row " style={{ backgroundColor: "#232F50" }}>
+        <div className="col-xl-5 col-sm-5 col-md-12 order-xl-first order-lg-first order-md-last order-sm-last">
+          <div>
+            <div
+              data-aos="slide-right"
+              style={{
+                fontSize: "60px",
+                color: "white",
+                paddingTop: "50px",
+                fontFamily: "Arbutus Slab",
+              }}
+              className="mk"
+            >
+              Azmuth
+              <p
+                data-aos="slide-right"
+                style={{
+
+                  fontFamily: "Poppins",
+                  fontSize: "20px",
+                  fontWeight: 300,
+                  letterSpacing: "2%",
+                  color: "white",
+                  verticalAlign: "top",
+                  fontStyle: "regular",
+                }}
+
+              >
+                Streamline logistics effortlessly with our AI-powered software
+                solutions. From pickup to doorstep delivery, we handle it all,
+                ensuring a seamless and hassle-free process. Join us for a world
+                of convenience, efficiency, and delightful customer experiences.
+              </p>
+              <Button
+                variant="light"
+                style={{
+                  width: "60%",
+                  padding: "15px",
+                  border: "none",
+                  fontFamily: "Poppins",
+                }}
+                id="btn"
+
+              >
+                Book a call
+              </Button>
+            </div>
+
+          </div>
+        </div>
+        <div className="col-xl-7 col-sm-5 col-md-12  order-md-first order-lg-last order-xl-last">
+
+          <video autoPlay loop muted style={{ width: "100%" }}>
             <source src={video} type="video/mp4" />
           </video>
         </div>
-        <div
-          className="col-xl-5 col-md-12 container "
-          style={{ backgroundColor: "#232F50", paddingLeft: "90px" }}
-        >
-          <div
-            data-aos="slide-right"
-            style={{
-              fontSize: "80px",
-              color: "white",
-              paddingTop: "70px",
-              fontFamily: "Arbutus Slab",
-            }}
-          >
-            Azmuth
-            <p
+
+
+      </div>
+
+    </div>
+
+    <div style={{ overflowX: "hidden" }} className=" d-sm-block ">
+      <div className="row " style={{ backgroundColor: "#232F50" }}>
+        <div className="col-xl-5 col-sm-5 col-md-12 order-xl-first order-lg-first order-md-last order-sm-last">
+          <div>
+            <div
               data-aos="slide-right"
               style={{
-                lineHeight: "43.4px",
-                paddingTop: "10px",
-                fontFamily: "Poppins",
-                fontSize: "20px",
-                fontWeight: 300,
-                letterSpacing: "2%",
+                fontSize: "60px",
                 color: "white",
-                verticalAlign: "top",
-                fontStyle: "regular",
+                paddingTop: "50px",
+                fontFamily: "Arbutus Slab",
               }}
-              className="mt-3"
+              className="mk"
             >
-              Streamline logistics effortlessly with our AI-powered software
-              solutions. From pickup to doorstep delivery, we handle it all,
-              ensuring a seamless and hassle-free process. Join us for a world
-              of convenience, efficiency, and delightful customer experiences.
-            </p>
-            <Button
-              variant="light"
-              style={{
-                width: "60%",
-                padding: "15px",
-                border: "none",
-                fontFamily: "Poppins",
-              }}
-              id="btn"
-              className="mt-2"
-            >
-              Book a call
-            </Button>
+              Azmuth
+              <p
+                data-aos="slide-right"
+                style={{
+
+                  fontFamily: "Poppins",
+                  fontSize: "20px",
+                  fontWeight: 300,
+                  letterSpacing: "2%",
+                  color: "white",
+                  verticalAlign: "top",
+                  fontStyle: "regular",
+                }}
+
+              >
+                Streamline logistics effortlessly with our AI-powered software
+                solutions. From pickup to doorstep delivery, we handle it all,
+                ensuring a seamless and hassle-free process. Join us for a world
+                of convenience, efficiency, and delightful customer experiences.
+              </p>
+              <Button
+                variant="light"
+                style={{
+                  width: "60%",
+                  padding: "15px",
+                  border: "none",
+                  fontFamily: "Poppins",
+                }}
+                id="btn"
+
+              >
+                Book a call
+              </Button>
+            </div>
+
           </div>
         </div>
-        <div className="col-xl-7" style={{ backgroundColor: "#232F50" }}>
-          {/* <video autoPlay loop muted style={{ width: "100%", height: "650px" }}>
+        <div className="col-xl-7 col-sm-5 col-md-12  order-first">
+
+          <video autoPlay loop muted style={{ width: "100%" }}>
             <source src={video} type="video/mp4" />
-          </video> */}
+          </video>
         </div>
+
+
       </div>
+
     </div>
+    </>
   );
 }
