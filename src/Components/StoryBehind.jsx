@@ -3,7 +3,10 @@ import "./Fonts.css";
 export default function StoryBehind() {
   return (
     <div style={{ overflowX: "hidden" }}>
-      <div className="container" style={{ marginTop: "50px" }}>
+      <div
+        className="container"
+        style={{ marginTop: "50px", marginBottom: "50px" }}
+      >
         <div className="row d-flex justify-content-between">
           {/* <div
             className="col-xl-6 col-md-12 col-sm-5 mt-5 mb-5"
