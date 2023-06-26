@@ -9,6 +9,7 @@ export default function Features() {
         className="container mt-5 mb-5"
         style={{ position: "relative", textAlign: "center" }}
       >
+        {/* LG */}
         <div
           className="d-none d-xl-block"
           data-aos="fade-up"
@@ -21,7 +22,7 @@ export default function Features() {
           />
 
           <div
-            className="p-3 "
+            className="p-3"
             data-aos="fade-left"
             style={{
               width: "35%",
@@ -36,7 +37,7 @@ export default function Features() {
           >
             <img
               alt=""
-              src={"./images/docket.png"}
+              src={"./images/1.png"}
               style={{
                 width: "50px",
                 height: "50px",
@@ -71,7 +72,7 @@ export default function Features() {
           >
             <img
               alt=""
-              src={"./images/docket.png"}
+              src={"./images/3.png"}
               style={{
                 width: "50px",
                 height: "50px",
@@ -106,7 +107,7 @@ export default function Features() {
           >
             <img
               alt=""
-              src={"./images/docket.png"}
+              src={"./images/5.png"}
               style={{
                 width: "50px",
                 height: "50px",
@@ -140,7 +141,7 @@ export default function Features() {
           >
             <img
               alt=""
-              src={"./images/docket.png"}
+              src={"./images/7.png"}
               style={{
                 width: "50px",
                 height: "50px",
@@ -174,7 +175,7 @@ export default function Features() {
           >
             <img
               alt=""
-              src={"./images/docket.png"}
+              src={"./images/9.png"}
               style={{
                 width: "50px",
                 height: "50px",
@@ -208,7 +209,7 @@ export default function Features() {
           >
             <img
               alt=""
-              src={"./images/docket.png"}
+              src={"./images/2.png"}
               style={{
                 width: "50px",
                 height: "50px",
@@ -245,7 +246,7 @@ export default function Features() {
           >
             <img
               alt=""
-              src={"./images/docket.png"}
+              src={"./images/4.png"}
               style={{
                 width: "50px",
                 height: "50px",
@@ -279,7 +280,7 @@ export default function Features() {
           >
             <img
               alt=""
-              src={"./images/docket.png"}
+              src={"./images/6.png"}
               style={{
                 width: "50px",
                 height: "50px",
@@ -313,7 +314,7 @@ export default function Features() {
           >
             <img
               alt=""
-              src={"./images/docket.png"}
+              src={"./images/8.png"}
               style={{
                 width: "50px",
                 height: "50px",
@@ -347,7 +348,7 @@ export default function Features() {
           >
             <img
               alt=""
-              src={"./images/docket.png"}
+              src={"./images/10.png"}
               style={{
                 width: "50px",
                 height: "50px",
@@ -366,7 +367,7 @@ export default function Features() {
             </p>
           </div>
         </div>
-
+        {/* MD/SM */}
         <div className="row d-xl-none d-md-block d-sm-block">
           <div className="col-12" data-aos="fade-left">
             <div
@@ -374,23 +375,32 @@ export default function Features() {
               style={{
                 border: "1px solid #cfcfcf",
                 backgroundColor: "white",
+                display: "flex",
                 borderRadius: "5px",
               }}
             >
               <img
                 alt=""
-                src={"./images/docket.png"}
+                src={"./images/1.png"}
                 style={{
+                  marginLeft: "8px",
+                  marginRight: "8px",
                   width: "40px",
                   height: "40px",
                   padding: "10px",
                   backgroundColor: "#10265f",
                   color: "white",
-                  float: "left",
                   borderRadius: "5px",
                 }}
               />
-              <p style={{ fontWeight: "600", fontSize: "15px" }}>
+              <p
+                style={{
+                  fontWeight: "600",
+                  fontSize: "15px",
+                  marginTop: "auto",
+                  marginBottom: "auto",
+                }}
+              >
                 IRO - Intelligent Route Optimization
               </p>
             </div>
@@ -402,25 +412,35 @@ export default function Features() {
               style={{
                 border: "1px solid #cfcfcf",
                 backgroundColor: "white",
+                display: "flex",
                 borderRadius: "5px",
+                justifyContent: "end",
               }}
             >
+              <p
+                style={{
+                  fontWeight: "600",
+                  fontSize: "15px",
+                  marginTop: "auto",
+                  marginBottom: "auto",
+                }}
+              >
+                Real time tracking
+              </p>
               <img
                 alt=""
-                src={"./images/docket.png"}
+                src={"./images/2.png"}
                 style={{
+                  marginLeft: "8px",
+                  marginRight: "8px",
                   width: "40px",
                   height: "40px",
                   padding: "10px",
                   backgroundColor: "#10265f",
                   color: "white",
-                  float: "right",
                   borderRadius: "5px",
                 }}
               />
-              <p style={{ fontWeight: "600", fontSize: "15px" }}>
-                Real time tracking
-              </p>
             </div>
           </div>
           <div className="col-12" data-aos="fade-left">
@@ -429,23 +449,32 @@ export default function Features() {
               style={{
                 border: "1px solid #cfcfcf",
                 backgroundColor: "white",
+                display: "flex",
                 borderRadius: "5px",
               }}
             >
               <img
                 alt=""
-                src={"./images/docket.png"}
+                src={"./images/3.png"}
                 style={{
+                  marginLeft: "8px",
+                  marginRight: "8px",
                   width: "40px",
                   height: "40px",
                   padding: "10px",
                   backgroundColor: "#10265f",
                   color: "white",
-                  float: "left",
                   borderRadius: "5px",
                 }}
               />
-              <p style={{ fontWeight: "600", fontSize: "15px" }}>
+              <p
+                style={{
+                  fontWeight: "600",
+                  fontSize: "15px",
+                  marginTop: "auto",
+                  marginBottom: "auto",
+                }}
+              >
                 SCS - Smart Courier Selection
               </p>
             </div>
@@ -456,23 +485,35 @@ export default function Features() {
               style={{
                 border: "1px solid #cfcfcf",
                 backgroundColor: "white",
+                display: "flex",
                 borderRadius: "5px",
+                justifyContent: "end",
               }}
             >
+              <p
+                style={{
+                  fontWeight: "600",
+                  fontSize: "15px",
+                  marginTop: "auto",
+                  marginBottom: "auto",
+                }}
+              >
+                First Mile
+              </p>
               <img
                 alt=""
-                src={"./images/docket.png"}
+                src={"./images/4.png"}
                 style={{
+                  marginLeft: "8px",
+                  marginRight: "8px",
                   width: "40px",
                   height: "40px",
                   padding: "10px",
                   backgroundColor: "#10265f",
                   color: "white",
-                  float: "right",
                   borderRadius: "5px",
                 }}
               />
-              <p style={{ fontWeight: "600", fontSize: "15px" }}>First Mile</p>
             </div>
           </div>
           <div className="col-12" data-aos="fade-left">
@@ -481,23 +522,34 @@ export default function Features() {
               style={{
                 border: "1px solid #cfcfcf",
                 backgroundColor: "white",
+                display: "flex",
                 borderRadius: "5px",
               }}
             >
               <img
                 alt=""
-                src={"./images/docket.png"}
+                src={"./images/5.png"}
                 style={{
+                  marginLeft: "8px",
+                  marginRight: "8px",
                   width: "40px",
                   height: "40px",
                   padding: "10px",
                   backgroundColor: "#10265f",
                   color: "white",
-                  float: "left",
                   borderRadius: "5px",
                 }}
               />
-              <p style={{ fontWeight: "600", fontSize: "15px" }}>Mid-Mile</p>
+              <p
+                style={{
+                  fontWeight: "600",
+                  fontSize: "15px",
+                  marginTop: "auto",
+                  marginBottom: "auto",
+                }}
+              >
+                Mid-Mile
+              </p>
             </div>
           </div>
           <div className="col-12" data-aos="fade-right">
@@ -506,23 +558,35 @@ export default function Features() {
               style={{
                 border: "1px solid #cfcfcf",
                 backgroundColor: "white",
+                display: "flex",
                 borderRadius: "5px",
+                justifyContent: "end",
               }}
             >
+              <p
+                style={{
+                  fontWeight: "600",
+                  fontSize: "15px",
+                  marginTop: "auto",
+                  marginBottom: "auto",
+                }}
+              >
+                Last- Mile
+              </p>
               <img
                 alt=""
-                src={"./images/docket.png"}
+                src={"./images/6.png"}
                 style={{
+                  marginLeft: "8px",
+                  marginRight: "8px",
                   width: "40px",
                   height: "40px",
                   padding: "10px",
                   backgroundColor: "#10265f",
                   color: "white",
-                  float: "right",
                   borderRadius: "5px",
                 }}
               />
-              <p style={{ fontWeight: "600", fontSize: "15px" }}>Last- Mile</p>
             </div>
           </div>
           <div className="col-12" data-aos="fade-left">
@@ -531,23 +595,32 @@ export default function Features() {
               style={{
                 border: "1px solid #cfcfcf",
                 backgroundColor: "white",
+                display: "flex",
                 borderRadius: "5px",
               }}
             >
               <img
                 alt=""
-                src={"./images/docket.png"}
+                src={"./images/7.png"}
                 style={{
+                  marginLeft: "8px",
+                  marginRight: "8px",
                   width: "40px",
                   height: "40px",
                   padding: "10px",
                   backgroundColor: "#10265f",
                   color: "white",
-                  float: "left",
                   borderRadius: "5px",
                 }}
               />
-              <p style={{ fontWeight: "600", fontSize: "15px" }}>
+              <p
+                style={{
+                  fontWeight: "600",
+                  fontSize: "15px",
+                  marginTop: "auto",
+                  marginBottom: "auto",
+                }}
+              >
                 BND - Behavioural and Decision pattern analysis
               </p>
             </div>
@@ -558,25 +631,35 @@ export default function Features() {
               style={{
                 border: "1px solid #cfcfcf",
                 backgroundColor: "white",
+                display: "flex",
                 borderRadius: "5px",
+                justifyContent: "end",
               }}
             >
+              <p
+                style={{
+                  fontWeight: "600",
+                  fontSize: "15px",
+                  marginTop: "auto",
+                  marginBottom: "auto",
+                }}
+              >
+                AI based Algorithms
+              </p>
               <img
                 alt=""
-                src={"./images/docket.png"}
+                src={"./images/8.png"}
                 style={{
+                  marginLeft: "8px",
+                  marginRight: "8px",
                   width: "40px",
                   height: "40px",
                   padding: "10px",
                   backgroundColor: "#10265f",
                   color: "white",
-                  float: "right",
                   borderRadius: "5px",
                 }}
               />
-              <p style={{ fontWeight: "600", fontSize: "15px" }}>
-                AI based Algorithms
-              </p>
             </div>
           </div>
           <div className="col-12" data-aos="fade-left">
@@ -585,23 +668,32 @@ export default function Features() {
               style={{
                 border: "1px solid #cfcfcf",
                 backgroundColor: "white",
+                display: "flex",
                 borderRadius: "5px",
               }}
             >
               <img
                 alt=""
-                src={"./images/docket.png"}
+                src={"./images/9.png"}
                 style={{
+                  marginLeft: "8px",
+                  marginRight: "8px",
                   width: "40px",
                   height: "40px",
                   padding: "10px",
                   backgroundColor: "#10265f",
                   color: "white",
-                  float: "left",
                   borderRadius: "5px",
                 }}
               />
-              <p style={{ fontWeight: "600", fontSize: "15px" }}>
+              <p
+                style={{
+                  fontWeight: "600",
+                  fontSize: "15px",
+                  marginTop: "auto",
+                  marginBottom: "auto",
+                }}
+              >
                 3PL Aggregator
               </p>
             </div>
@@ -612,25 +704,35 @@ export default function Features() {
               style={{
                 border: "1px solid #cfcfcf",
                 backgroundColor: "white",
+                display: "flex",
                 borderRadius: "5px",
+                justifyContent: "end",
               }}
             >
+              <p
+                style={{
+                  fontWeight: "600",
+                  fontSize: "15px",
+                  marginTop: "auto",
+                  marginBottom: "auto",
+                }}
+              >
+                Hyperlocal Deliveries
+              </p>
               <img
                 alt=""
-                src={"./images/docket.png"}
+                src={"./images/10.png"}
                 style={{
+                  marginLeft: "8px",
+                  marginRight: "8px",
                   width: "40px",
                   height: "40px",
                   padding: "10px",
                   backgroundColor: "#10265f",
                   color: "white",
-                  float: "right",
                   borderRadius: "5px",
                 }}
               />
-              <p style={{ fontWeight: "600", fontSize: "15px" }}>
-                Hyperlocal Deliveries
-              </p>
             </div>
           </div>
         </div>
