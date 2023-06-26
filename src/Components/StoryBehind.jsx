@@ -21,10 +21,15 @@ export default function StoryBehind() {
           <div className="col-xl-1"></div>
           <div
             className="col-xl-10 col-md-12 col-sm-5 ps-sm-5"
-            style={{ display: "fllex", alignSelf: "center", padding: "10px" }}
+            style={{
+              display: "fllex",
+              alignSelf: "center",
+              padding: "10px",
+              textAlign: "center",
+            }}
             data-aos="fade-left"
           >
-            <div style={{ width: "100%", textAlign: "center" }}>
+            <div style={{ width: "100%" }}>
               <strong
                 style={{
                   fontFamily: "Poppins",
@@ -46,7 +51,8 @@ export default function StoryBehind() {
                 lineHeight: "43.4px",
                 letterSpacing: "2%",
                 verticalAlign: "top",
-                alignContent: "left",
+                alignContent: "center",
+                textAlign: "center",
               }}
               className="my-4"
             >
