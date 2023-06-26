@@ -3,7 +3,7 @@ import "./Fonts.css";
 export default function StoryBehind() {
   return (
     <div style={{ overflowX: "hidden" }}>
-      <div className="container my-4 ">
+      <div className="container" style={{ marginTop: "50px" }}>
         <div className="row d-flex justify-content-between">
           {/* <div
             className="col-xl-6 col-md-12 col-sm-5 mt-5 mb-5"
@@ -15,9 +15,9 @@ export default function StoryBehind() {
               alt=""
             />
           </div> */}
-          <div className="col-xl-2"></div>
+          <div className="col-xl-1"></div>
           <div
-            className="col-xl-8 col-md-12 col-sm-5 ps-sm-5"
+            className="col-xl-10 col-md-12 col-sm-5 ps-sm-5"
             style={{ display: "fllex", alignSelf: "center", padding: "10px" }}
             data-aos="fade-left"
           >
@@ -54,7 +54,7 @@ export default function StoryBehind() {
               customers.”
             </p>
           </div>
-          <div className="col-xl-2"></div>
+          <div className="col-xl-1"></div>
         </div>
       </div>
     </div>
