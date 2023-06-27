@@ -1,4 +1,4 @@
-import React, { useRef } from "react";
+import React, { useCallback, useRef } from "react";
 import Button from "react-bootstrap/Button";
 import Col from "react-bootstrap/Col";
 import Form from "react-bootstrap/Form";
@@ -12,6 +12,7 @@ import "animate.css";
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 
 import { faArrowLeft } from "@fortawesome/free-solid-svg-icons";
+import axios from "axios";
 export default function ConatactUs() {
   var settings = {
     autoplay: true,
@@ -21,6 +22,24 @@ export default function ConatactUs() {
   };
   const sliderRef = useRef(null);
   console.log(sliderRef.current);
+
+  const onSubmit = useCallback((e) => {
+    console.log(e);
+    e.preventDefault();
+    const target = e.target;
+    const data = {
+      name: target[0].value,
+      email: target[1].value,
+      phoneNumber: target[2].value,
+      company: target[3].value,
+      position: target[4].value,
+      note: target[5].value,
+    };
+    axios
+      .post("https://dropsupply.in/api/azmuth", data)
+      .then((res) => console.log(res))
+      .catch((e) => console.error(e));
+  }, []);
 
   return (
     <div style={{ overflow: "hidden" }}>
@@ -286,7 +305,7 @@ export default function ConatactUs() {
             >
               Hello Us.
             </p>
-            <Form>
+            <Form onSubmit={onSubmit}>
               <Form.Group className="mb-3" controlId="formGroupEmail">
                 <Form.Control type="name" placeholder="Your Name" name="name" />
               </Form.Group>
@@ -317,6 +336,7 @@ export default function ConatactUs() {
               <Col>
                 <Button
                   className="mt-3 mb-5"
+                  type="submit"
                   style={{
                     width: "100%",
                     backgroundColor: "#10265f",
