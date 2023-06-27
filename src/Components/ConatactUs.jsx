@@ -13,7 +13,11 @@ import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 
 import { faArrowLeft } from "@fortawesome/free-solid-svg-icons";
 import axios from "axios";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
+
 export default function ConatactUs() {
+  const notify = () => toast("Submited!");
   var settings = {
     autoplay: true,
     slidesToShow: 1,
@@ -37,7 +41,10 @@ export default function ConatactUs() {
     };
     axios
       .post("https://dropsupply.in/api/azmuth", data)
-      .then((res) => console.log(res))
+      .then((res) => {
+        console.log(res);
+        notify();
+      })
       .catch((e) => console.error(e));
   }, []);
 
@@ -353,6 +360,7 @@ export default function ConatactUs() {
           </div>
         </div>
       </div>
+      <ToastContainer />
     </div>
   );
 }
