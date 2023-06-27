@@ -5,6 +5,7 @@ import { Button } from "react-bootstrap";
 
 const video =
   "https://azmuth.s3.ap-south-1.amazonaws.com/azmuthvideo1.1370eaff70b528f4c1d7.mp4";
+const image = "/images/azmuthvideo.gif";
 export default function HeroComponent() {
   return (
     <>
@@ -57,6 +58,7 @@ export default function HeroComponent() {
             </div>
           </div>
           <div className="col-xl-7 col-sm-5 col-md-12  order-md-first order-lg-last order-xl-last">
+            <img src={image} alt="" style={{ width: "100%" }} />
             <video autoPlay loop muted style={{ width: "100%" }}>
               <source src={video} type="video/mp4" />
             </video>
@@ -113,7 +115,19 @@ export default function HeroComponent() {
             </div>
           </div>
           <div className="col-xl-7 col-sm-5 col-md-12  order-first">
-            <video autoPlay loop muted style={{ width: "100%" }}>
+            <img
+              src={image}
+              alt=""
+              className="dashboard-gif"
+              style={{ width: "100%" }}
+            />
+            <video
+              autoPlay
+              loop
+              muted
+              className="dashboard-video"
+              style={{ width: "100%" }}
+            >
               <source src={video} type="video/mp4" />
             </video>
           </div>

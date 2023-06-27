@@ -1,116 +1,106 @@
-@import url('https://fonts.googleapis.com/css2?family=Arbutus+Slab&family=Poppins:wght@500&display=swap');
-.bg{
-    background-image: url(./images/Full.png);
-    
-    background-size: cover;
+@import url("https://fonts.googleapis.com/css2?family=Arbutus+Slab&family=Poppins:wght@500&display=swap");
+.bg {
+  background-image: url(./images/Full.png);
+
+  background-size: cover;
 }
-.bimg{
-    background-image: url(./images/bgcontact.png);
+.bimg {
+  background-image: url(./images/bgcontact.png);
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-
-    .bg{
-  background-image: none;
-  background-color: #10265f;
+  .bg {
+    background-image: none;
+    background-color: #10265f;
+  }
 }
-
-}
-
-
-
-
 
 @media screen and (min-width: 400px) {
-
-  .mk{
-   padding-left: 75px;
-}
-
+  .mk {
+    padding-left: 75px;
+  }
 }
 
 @media screen and (max-width: 400px) {
-
-  .mk{
-   padding-left: 20px;
-}
-
+  .mk {
+    padding-left: 20px;
+  }
 }
 
 @media screen and (max-width: 1000px) {
-
-  .mk{
-   padding-left: 10px;
+  .mk {
+    padding-left: 10px;
+  }
 }
-
-}
-.co{
+.co {
   fill: #10265f;
 }
 @media screen and (min-width: 1900px) {
-
-  .mk{
-   padding-left: 300px;
-}
-
+  .mk {
+    padding-left: 300px;
+  }
 }
 @media screen and (max-width: 400px) {
-
-  #logo{
- display: flex;
- justify-content: center;
-}
-
+  #logo {
+    display: flex;
+    justify-content: center;
+  }
 }
 
 @media screen and (max-width: 700px) {
-
-  #vi{
- display: flex;
- justify-content: center;
-}
-
+  #vi {
+    display: flex;
+    justify-content: center;
+  }
 }
 @media screen and (min-width: 1900px) {
-
-  #vi{
- display: flex;
- justify-content: end;
-}
-
+  #vi {
+    display: flex;
+    justify-content: end;
+  }
 }
 
 @media screen and (min-width: 900px) {
-
-  #vi{
- display: flex;
- justify-content: end;
-}
-
+  #vi {
+    display: flex;
+    justify-content: end;
+  }
 }
 @media screen and (min-width: 700px) {
-
-  #vi{
- display: flex;
- justify-content: center;
-}
-
+  #vi {
+    display: flex;
+    justify-content: center;
+  }
 }
 
 @media screen and (min-width: 700px) {
-
-  #logo{
- display: flex;
- justify-content: center;
-}
-
+  #logo {
+    display: flex;
+    justify-content: center;
+  }
 }
 
 @media screen and (max-width: 700px) {
-
-  #logo{
- display: flex;
- justify-content: center;
+  #logo {
+    display: flex;
+    justify-content: center;
+  }
 }
 
+@media only screen and (max-width: 1200px) {
+  .dashboard-video {
+    display: none;
+  }
+  .dashboard-gif {
+    display: block;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .dashboard-video {
+    display: block;
+  }
+  .dashboard-gif {
+    display: none;
+  }
 }
