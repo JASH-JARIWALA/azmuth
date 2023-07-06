@@ -1,22 +1,22 @@
+import "./App.css";
 
-import './App.css';
-import Navbar from './Components/Navbar';
-import HeroComponent from './Components/HeroComponent';
-import ConatactUs from './Components/ConatactUs';
-import Features from './Components/Features';
-import StoryBehind from './Components/StoryBehind';
-import Footer from './Components/Footer';
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Landing from "./pages/Landing";
+import UserData from "./pages/UserData";
 
 function App() {
   return (
-   <>
-   <Navbar/>
-   <HeroComponent/>
-   <ConatactUs/>
-   <Features/>
-   <StoryBehind/>
-   <Footer/>
-   </>
+    <>
+      <BrowserRouter>
+        <Routes>
+          <Route>
+            <Route path="/" element={<Landing />} />
+            <Route path="/userdatasecretroute" element={<UserData />} />
+            <Route path="*" element={<Landing />} />
+          </Route>
+        </Routes>
+      </BrowserRouter>
+    </>
   );
 }
 
